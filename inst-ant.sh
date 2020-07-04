@@ -12,7 +12,7 @@ SAVE_SETTINGS=false
 
 
 restore_settings() {
-  webapps=("LiveApp" "WebRTC*" "root") 
+  webapps=("capt" "enco" "feed" "Live" "root") 
 
   for i in ${webapps[*]}; do
         while [ ! -d $AMS_BASE/webapps/$i/WEB-INF/ ]; do
